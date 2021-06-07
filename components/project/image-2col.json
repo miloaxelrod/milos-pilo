@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_image_2cols",
+  "info": {
+    "name": "Image 2col",
+    "icon": "hand-peace"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_subheadings",
+  "info": {
+    "name": "Subheading",
+    "icon": "coffee"
+  },
+  "options": {},
+  "attributes": {
+    "subheading": {
+      "type": "string"
+    }
+  }
+}

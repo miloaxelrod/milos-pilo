@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "profiles",
+  "info": {
+    "name": "Profile"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Bio": {
+      "type": "richtext"
+    },
+    "Pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "readingItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.reading-item"
+    },
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.social"
+    }
+  }
+}

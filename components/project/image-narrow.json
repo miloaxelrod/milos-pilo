@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_image_narrows",
+  "info": {
+    "name": "Image Narrow",
+    "icon": "compress-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_carousels",
+  "info": {
+    "name": "Carousel",
+    "icon": "horse"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

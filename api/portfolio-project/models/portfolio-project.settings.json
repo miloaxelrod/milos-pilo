@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio_projects",
+  "info": {
+    "name": "Portfolio Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Intro": {
+      "type": "richtext"
+    },
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "project.image-narrow",
+        "project.heading",
+        "project.carousel",
+        "project.image-2col",
+        "project.subheading",
+        "project.paragraph",
+        "project.image-wide"
+      ]
+    }
+  }
+}

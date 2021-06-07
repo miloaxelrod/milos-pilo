@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_project_headings",
+  "info": {
+    "name": "Heading",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

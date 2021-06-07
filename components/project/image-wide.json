@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_project_image_wides",
+  "info": {
+    "name": "Image Wide",
+    "icon": "expand-arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
